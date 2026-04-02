@@ -25,10 +25,10 @@ export default function Navbar(){
     <div
     className={`flex items-center justify-center h-13 p-5 font-[Basic] fixed top-0 left-0 w-full z-50 transition-all duration-300 
     ${isScrolled
-        ? "bg-white/70 backdrop-blur-md shadow-sm text-black"
+        ? "bg-[#111317]/80 backdrop-blur-md shadow-lg text-white border-b border-white/5"
         : "bg-transparent"
     }`}>
-        <Link href='/' className='text-[25px] text-[#FF7A30] font-extrabold'>Ayaan Karkera</Link>
+        <Link href='/' className='text-[25px] text-[#00E5FF] hover:text-[#00B4CC] transition-colors font-extrabold tracking-tight drop-shadow-[0_0_8px_rgba(0,229,255,0.6)]'>Ayaan Karkera</Link>
     </div>
   )
 }
