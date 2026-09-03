@@ -10,23 +10,16 @@ const PROJECTS = [
     id: 1,
     title: "Nutrition Tracker",
     description: "A full-stack nutrition tracker with Google Sign-In, calorie ring, macro tracking, water logging, and a 180+ item Indian food database. Built with vanilla JS and Firebase.",
-    demoLink: "#",
+    demoLink: "https://akgod313.github.io/Nutri_Tracker/",
     githubLink: "https://github.com/Akgod313/Nutri_Tracker",
   },
   {
     id: 2,
     title: "Workout Tracker",
     description: "A gym logging app with a 26-exercise library, rest timer, plate calculator, PR tracking, progress photos, and a weight history chart. Powered by Firebase.",
-    demoLink: "#",
+    demoLink: "https://akgod313.github.io/Nutri_Tracker/workout.html",
     githubLink: "https://github.com/Akgod313/Nutri_Tracker",
   },
-  {
-    id: 3,
-    title: "Project Name 3",
-    description: "A brief description of this awesome project. What technologies did you use, and what problem did it solve?",
-    demoLink: "#",
-    githubLink: "#",
-  }
 ];
 
 export default function Home() {
@@ -92,7 +85,7 @@ export default function Home() {
                 </h2>
                 <p className="text-[#00E5FF] animate-pulse font-medium tracking-widest uppercase text-sm">Scroll down</p>
               </div>
-              <div className="relative w-full md:w-[450px] h-[250px] md:h-[300px] rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,229,255,0.15)] border border-[#00E5FF]/20 flex-shrink-0">
+              <div className="relative w-full md:w-112.5 h-62.5 md:h-75 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,229,255,0.15)] border border-[#00E5FF]/20 flex-shrink-0">
                 <div className="absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 transition-opacity duration-500 flex items-center justify-center z-10">
                   <p className="text-white font-bold tracking-widest text-sm drop-shadow-[0_0_8px_rgba(0,0,0,0.8)]">Coding Projects</p>
                 </div>
