@@ -181,7 +181,7 @@ export default function Home() {
             {/* Profile Picture */}
             <div className="relative w-[220px] h-[220px] md:w-[280px] md:h-[280px] rounded-full overflow-hidden shadow-2xl border border-white/5 z-20">
               <Image
-                src='/cropped_circle_image.png'
+                src='/IMG_0675.png'
                 alt="Image Of Ayaan"
                 fill
                 sizes="(max-width: 768px) 220px, 280px"
@@ -197,7 +197,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">About Me</h2>
           <div className="bg-white/5 border border-white/10 p-8 rounded-3xl shadow-xl backdrop-blur-sm">
             <p className="text-gray-300 leading-relaxed text-lg mb-6">
-              "I'm Ayaan — a 15-year-old self-taught developer and video editor from India. I started coding out of curiosity and ended up building full-stack apps with real users. When I'm not shipping code, I'm editing videos. I like making things that actually work."
+              "I'm Ayaan — a 15-year-old self-taught developer and video editor from India. I started coding out of curiosity and ended up building full-stack apps. "
             </p>
             <div className="flex flex-wrap gap-3">
               {["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"].map(skill => (
