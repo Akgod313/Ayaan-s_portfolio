@@ -242,7 +242,7 @@ export default function Home() {
           <p className="text-gray-400 max-w-lg mb-8 text-lg">
             Currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </p>
-          <a href="mailto:ayaan@example.com" className="px-8 py-4 bg-white text-[#111317] font-bold rounded-full hover:bg-gray-200 transition-all hover:scale-105 active:scale-95 shadow-xl">
+          <a href="mailto:ayaankarkera8@gmail.com" className="px-8 py-4 bg-white text-[#111317] font-bold rounded-full hover:bg-gray-200 transition-all hover:scale-105 active:scale-95 shadow-xl">
             Say Hello
           </a>
         </section>
